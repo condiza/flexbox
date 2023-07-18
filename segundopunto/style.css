@@ -1,0 +1,25 @@
+*{
+    padding: 1%;
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 370px;
+    margin:2px;
+    border: 1px solid rgba(151, 145, 145, 0.487);
+    background-color:rgba(151, 145, 145, 0.487) ;
+}
+
+button{
+    border:none;
+    cursor: pointer;
+}
